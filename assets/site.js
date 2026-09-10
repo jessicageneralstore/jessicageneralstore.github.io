@@ -65,7 +65,10 @@
     var io = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.setAttribute('data-in', '1'); io.unobserve(e.target); } });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-    d.querySelectorAll('.card, .sec-head, .vcard, .about, .rcard').forEach(function (c) { io.observe(c); });
+    var gated = d.querySelectorAll('.card, .sec-head, .vcard, .about, .rcard');
+    gated.forEach(function (c) { io.observe(c); });
+    /* safety: nothing stays hidden if IO never fires (print, full-page capture, odd engines) */
+    setTimeout(function () { gated.forEach(function (c) { c.setAttribute('data-in', '1'); }); }, 2500);
   } else { d.documentElement.classList.add('no-io'); }
 
   /* ---------- category chips ---------- */
