@@ -1,0 +1,42 @@
+{
+ "hero_m_1080.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_1a1fb7d4-21ea-4df2-ac8f-672c5d032bcb_t0_3.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "hero_m_720.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_1a1fb7d4-21ea-4df2-ac8f-672c5d032bcb_t0_3.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "hero_d_1200.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_f9ebf190-747d-4730-b8b0-967b6917edc4_t6_0.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "hero_d_800.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_f9ebf190-747d-4730-b8b0-967b6917edc4_t6_0.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "about_480.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_31657bb3-1188-4b95-a5d0-cb23ed0c78b0_t1.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "og.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/POSTERS/HF_f9ebf190-747d-4730-b8b0-967b6917edc4_t6_0.jpg",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "hero.mp4": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/VIDEOS/HF_1a1fb7d4-21ea-4df2-ac8f-672c5d032bcb.mp4",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ },
+ "hero_poster.jpg": {
+  "source": "ASSETS/HIGGSFIELD/JESSICASTORE_LIBRARY/VIDEOS/HF_1a1fb7d4-21ea-4df2-ac8f-672c5d032bcb.mp4",
+  "identityStatus": "CANONICAL_JESSICA_VERIFIED",
+  "sourceBadge": "HIGGSFIELD_EXISTING_LIBRARY"
+ }
+}

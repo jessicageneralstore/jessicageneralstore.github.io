@@ -1,8 +1,9 @@
 {
- "build": "202609101230",
+ "build": "202609101245",
  "pages": 44,
  "products": 18,
  "assets": [
+  "DERIVATIVE_SOURCES.json",
   "about_480.jpg",
   "hero.mp4",
   "hero_d_1200.jpg",
@@ -11,6 +12,7 @@
   "hero_m_720.jpg",
   "hero_poster.jpg",
   "og.jpg",
+  "posters",
   "site.css",
   "site.js"
  ]
