@@ -245,3 +245,10 @@ footer nav a{text-decoration:underline;text-underline-offset:3px}
 }
 .card:hover .tile img,.rcard:hover .tile img{transform:scale(1.03)}
 .tile img{transition:transform var(--jgs-dur-slow) var(--jgs-ease)}
+
+/* v3-reveal: subtle scroll reveals (no scroll hijack); reduced motion -> static */
+.sec-head,.vcard,.about,.rcard{opacity:0;transform:translateY(12px);transition:opacity .55s var(--jgs-ease),transform .55s var(--jgs-ease)}
+.sec-head[data-in="1"],.vcard[data-in="1"],.about[data-in="1"],.rcard[data-in="1"],.no-io .sec-head,.no-io .vcard,.no-io .about,.no-io .rcard{opacity:1;transform:none}
+.vcard[data-in="1"] .play{animation:jgs-pulse 2.4s ease-in-out 1}
+@keyframes jgs-pulse{0%{transform:scale(1)}40%{transform:scale(1.12)}100%{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.sec-head,.vcard,.about,.rcard{opacity:1;transform:none;transition:none}.vcard .play{animation:none}}

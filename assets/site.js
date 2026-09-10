@@ -41,6 +41,12 @@
       var arm = function () {
         if (armed) return; armed = true;
         vid.addEventListener('canplay', function () { vid.setAttribute('data-ready', '1'); });
+        /* breathing loop: play once, fade back to the still, then replay (no hard loop pop) */
+        vid.removeAttribute('loop');
+        vid.addEventListener('ended', function () {
+          vid.removeAttribute('data-ready');
+          setTimeout(function () { try { vid.currentTime = 0; } catch (e) {} var p2 = vid.play(); if (p2 && p2.catch) p2.catch(function () {}); vid.setAttribute('data-ready', '1'); }, 1400);
+        });
         vid.load();
         var p = vid.play(); if (p && p.catch) p.catch(function () {});
       };
@@ -59,7 +65,7 @@
     var io = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.setAttribute('data-in', '1'); io.unobserve(e.target); } });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-    d.querySelectorAll('.card').forEach(function (c) { io.observe(c); });
+    d.querySelectorAll('.card, .sec-head, .vcard, .about, .rcard').forEach(function (c) { io.observe(c); });
   } else { d.documentElement.classList.add('no-io'); }
 
   /* ---------- category chips ---------- */
