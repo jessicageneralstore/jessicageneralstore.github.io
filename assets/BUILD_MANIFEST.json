@@ -1,0 +1,17 @@
+{
+ "build": "202609101131",
+ "pages": 44,
+ "products": 18,
+ "assets": [
+  "about_480.jpg",
+  "hero.mp4",
+  "hero_d_1200.jpg",
+  "hero_d_800.jpg",
+  "hero_m_1080.jpg",
+  "hero_m_720.jpg",
+  "hero_poster.jpg",
+  "og.jpg",
+  "site.css",
+  "site.js"
+ ]
+}
